@@ -19,4 +19,5 @@ An alert that prevents shutdown for a custom reminder.
 
 # TODO
 - [ ] OK always shuts down, but sometimes we want a restart or other?
-- [ ] Test if other actions - logout, restart - get blocked, or if only shutdown? 
+- [ ] Test if other actions - logout, restart - get blocked, or if only shutdown?
+- [ ] Keep force and not force shutdowns. Using this blocker seem to result in slower turn ons due to losing quick shutdowns (memory/cache is cleared?) - but not sure.
